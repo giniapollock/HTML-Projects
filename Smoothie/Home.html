@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="keywords" content="smoothie world, smoothies, home">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<title>Smoothie World - Home</title>
+<style>
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	h2 {
+		padding:10px;
+	}
+	
+	main {
+		width: 75%;
+    	padding: 15px;
+		align-content: center;
+	}
+
+	p {
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		font-weight: bolder;
+	}
+	
+	#news {
+		text-align: center;
+		width:100%;
+		height:auto;
+	}
+	
+	#cranpic {
+ 	 	display: block;
+  		width: 100%;
+  		height: auto;
+		align-items: center;
+		max-width: 100%;
+	}
+	
+	.container {
+  		position: relative;
+ 		width: 50%;
+		align-items: center;
+		margin-left:25%;
+	}
+	
+	.overlay {
+  		position: absolute;
+  		bottom: 100%;
+ 	 	left: 0;
+  		right: 0;
+ 		 background-color: darkred;
+  		overflow: hidden;
+  		width: 100%;
+  		height:0;
+  		transition: .5s ease;
+	}
+
+	.container:hover .overlay {
+ 		 bottom: 0;
+ 		 height: 100%;
+	}
+
+	.text {
+  		color: white;
+  		font-size: 20px;
+ 		 position: absolute;
+ 		 top: 50%;
+ 		 left: 50%;
+ 		 transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+ 		 text-align: center;
+	}
+	
+	</style>
+</head>
+
+<body>
+<nav>
+<ul id="nav">
+  <li><a class="active" href="Home.html">Home</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+  <li><a href="Recipes.html">Recipes</a></li>
+  <li><a href="About.html">About</a></li>
+</ul>
+	</nav>
+	
+<div id="head">
+<img src="assets/header.jpeg" id="headimg">
+
+<h1>Smoothie World</h1>
+
+<br><br><br>
+<p id="intro">Welcome to Smoothie World! Voted one of <a href="https://www.cnn.com/travel/gallery/2017-worlds-50-best-restaurants-awards/index.html">World's 50 Best Restaurants of 2017</a>. Take a look at our menu, explore our current organizational events or see one of our recipe tutorials above.</p>
+</div>
+<main>
+<article id="news">
+
+<hbox>
+<h2>New Flavor Coming Soon</h2>
+<h3>April 10th, 2018</h3>
+	</hbox>
+<hr>
+	<a href="Menu.html">
+	<figure class="container">
+	<img src="assets/cranberry-smoothie.jpeg" id="cranpic">
+	 <div class="overlay">
+    <figcaption class="text">Welcome, Cranberry Berry Smoothie!</figcaption>
+  </div></a>
+</figure>
+	<p>You asked, we delivered! We're excited to announce our newest creation: the Cranberry Berry Smoothie. This fresh twist on the classic cranberry concoction is perfect for those craving the taste of fall year-round. Visit within the next week to get a free Cranberry Berry Smoothie voucher</p>
+</article>
+<article id="news2">
+</article>
+</main>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-rss"></a>
+</body>
+</html>

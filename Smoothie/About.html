@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="keywords" content="smoothie world, smoothies, about, contact us">
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<title>Smoothie World - About</title>
+<style>
+
+	#desc {
+		text-align: center;
+		padding:10px;
+	}
+	
+	p {
+		font-weight:bold;
+	}
+	
+	table {
+		width:100%;
+		height:auto;
+	}
+	
+	th {
+		background-color:darkred;
+		color:white;
+		padding:10px;
+		text-align: center;
+	}
+	
+	td {
+		border: black double 5px;
+		text-align: center;
+	}
+	
+	.head {
+		border-bottom: black solid 5px;
+	}
+	
+	.what {
+		background-color:dimgrey;
+		color:white;
+	}
+	
+</style>
+</head>
+
+<body>
+<nav>
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+  <li><a href="Recipes.html">Recipes</a></li>
+  <li><a class="active" href="About.html">About</a></li>
+</ul>
+	</nav>
+	
+<div id="head">
+<img src="assets/header.jpeg" id="headimg">
+<h1>Smoothie World</h1>
+<br><br><br>
+<p id="intro">Below you will find a brief description of our location and hours. At the bottom of the page you can input your ideas for new recipes you would like to see.</p>
+	</div>
+<main>
+	<p id="desc">Smoothie World has grown, but still remains committed to our main goal: providing exceptional service and unique home-crafted smoothie options. Email for more information or feedback.</p>
+	
+<table>
+	<tr>
+		<th colspan="3" rowspan="2" class="head">Smoothie World Important Dates and Hours</th>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<th class="subhead">What?</th>
+		<th class="subhead">When?</th>
+		<th class="subhead">Info</th>
+	</tr>
+	<tr>
+		<td class="what">Opening Day</td>
+		<td class="when">May 13th</td>
+		<td class="note">Our hours are Mon-Fri 8am-7pm, Saturdays 9am-4pm</td>
+	</tr>
+	<tr>
+		<td class="what">CLOSED</td>
+		<td class="when">November 1st</td>
+		<td class="note">We are closed to the public for the Winter months</td>
+	</tr>
+	<tr>
+		<td class="what">Venue Rental Window Begins</td>
+		<td class="when">November 15th</td>
+		<td class="note">From now until May 13th of the next year, our locations are available for rental.</td>
+	</tr>
+</table>
+
+<h2>Fill out the fields below if you'd like to submit your ideas for our next recipe:</h2>
+	
+<form action="mailto:" method="post">
+
+  <input type="text" name="fname" value="First Name" tabindex="1" min="10" max="20">
+  <input type="text" name="lname" value="Last Name" tabindex="2" min="10" max="20">
+  <br>
+	
+<p>How did you hear about us?</p>
+<select name="ref" tabindex"3" size="4" multiple>
+    <option value="mouth">Word of Mouth</option>
+    <option value="online">Online</option>
+    <option value="ad">Advertisement</option>
+	<option value="walkin">Walk-In</option>
+</select>
+	
+<p>Which locations do you frequent, if any?</p>
+<input type="checkbox" name="location1" tabindex="4" value="farmington">Farmington
+<input type="checkbox" name="location2" tabindex="5" value="ro">Royal Oak
+<input type="checkbox" name="location3" tabindex="6" value="detroit">Detroit
+<input type="checkbox" name="location4" tabindex="7" value="none">None
+
+	
+	
+<p>What sort of smoothie options would you like to see from us going forward? Do you have any feedback for Smoothie World as an organization?</p>
+<textarea name="feedback" tabindex="8" rows="4" cols="50"></textarea>
+	
+<p>Please put your contact information below.</p>
+<input type="text" name="contact" tabindex="9" size="20">
+
+<br><br>
+<input type="submit" value="Submit">
+<br><br>
+<p>Thank you for your continued patronage! We take all of our feedback into consideration.</p> 
+</form>
+	
+
+
+<div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/en/city/4990729"><span style="color:gray;">Current local time in</span><br />Detroit, United States</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=America%2FDetroit" width="100%" height="90" frameborder="0" seamless></iframe></div>
+
+</main>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-rss"></a>
+</body>
+</html>
